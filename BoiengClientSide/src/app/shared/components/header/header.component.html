@@ -1,0 +1,14 @@
+<mat-toolbar>
+<!-- Navigation -->
+<div class="margin">
+    <!-- <button mat-raised-button>
+      <span>Notes</span>
+    </button> -->
+    <a mat-button *ngFor="let item of menuItems" 
+    [routerLink]="item.link" 
+    routerLinkActive="active" 
+    [routerLinkActiveOptions]="{exact:true}">
+      <span>{{item.name}}</span>
+    </a>
+  </div>
+  </mat-toolbar>

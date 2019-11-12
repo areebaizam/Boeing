@@ -1,0 +1,19 @@
+  //Margin between buttons
+  .margin a {
+    margin-right: 8px;
+  }
+
+  .mat-toolbar{
+    // position: fixed;
+    background-color:rgba(101, 182, 214, 0.623) 
+  }
+//Hover on button
+a:hover {
+  color: white;
+}
+
+//Active Link
+.active
+{
+    color:rgb(0, 135, 224);
+}
